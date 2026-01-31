@@ -147,23 +147,30 @@ The Express backend provides a REST API for template management:
 1. Paste or type JSON in either panel
 2. Use **Format** to pretty-print or **Minify** to compress
 3. Toggle between **Code View** and **Tree View**
+![Default View](./images/view_mode.png)
 
 ### Comparing JSON
 1. Load JSON in both left and right panels
 2. Click the **Diff** button in the center controls
 3. View side-by-side comparison with highlighted changes
+![Diff view sample](./images/diff_view.png)
+
 
 ### Building JSON
 1. Navigate to **JSON Designer** tab
 2. Add nodes using the type buttons (String, Number, Object, etc.)
 3. Drag nodes to reorder
 4. Copy generated JSON from the right panel
+![JSON Builder Page](./images/JSON_builder.png)
 
-### Testing APIs
+
+### Simple API Testing
 1. Navigate to **API Tester** tab
 2. Enter the API URL and select HTTP method
 3. Add headers and request body as needed
 4. Click **Send** and view response with performance metrics
+![Simple API testing](./images/api_test.png)
+
 
 ## Browser Support
 
@@ -196,3 +203,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Made with React and Express.js
+

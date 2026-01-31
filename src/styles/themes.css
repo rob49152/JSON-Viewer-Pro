@@ -1,0 +1,115 @@
+/* Theme-specific CSS variables and overrides */
+
+/* Base theme transitions */
+.app-container {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar,
+.modal-content,
+.btn,
+.form-control,
+.form-select {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+/* Theme preview cards */
+.theme-preview {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.theme-preview:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Custom scrollbar styling for different themes */
+.theme-dark ::-webkit-scrollbar,
+.theme-midnight ::-webkit-scrollbar,
+.theme-forest ::-webkit-scrollbar,
+.theme-sunset ::-webkit-scrollbar,
+.theme-ocean ::-webkit-scrollbar,
+.theme-nord ::-webkit-scrollbar,
+.theme-highContrast ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.theme-dark ::-webkit-scrollbar-track,
+.theme-midnight ::-webkit-scrollbar-track,
+.theme-forest ::-webkit-scrollbar-track,
+.theme-sunset ::-webkit-scrollbar-track,
+.theme-ocean ::-webkit-scrollbar-track,
+.theme-nord ::-webkit-scrollbar-track,
+.theme-highContrast ::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.theme-dark ::-webkit-scrollbar-thumb,
+.theme-midnight ::-webkit-scrollbar-thumb,
+.theme-forest ::-webkit-scrollbar-thumb,
+.theme-sunset ::-webkit-scrollbar-thumb,
+.theme-ocean ::-webkit-scrollbar-thumb,
+.theme-nord ::-webkit-scrollbar-thumb,
+.theme-highContrast ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.theme-dark ::-webkit-scrollbar-thumb:hover,
+.theme-midnight ::-webkit-scrollbar-thumb:hover,
+.theme-forest ::-webkit-scrollbar-thumb:hover,
+.theme-sunset ::-webkit-scrollbar-thumb:hover,
+.theme-ocean ::-webkit-scrollbar-thumb:hover,
+.theme-nord ::-webkit-scrollbar-thumb:hover,
+.theme-highContrast ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Light theme scrollbars */
+.theme-light ::-webkit-scrollbar,
+.theme-solarizedLight ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.theme-light ::-webkit-scrollbar-track,
+.theme-solarizedLight ::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.theme-light ::-webkit-scrollbar-thumb,
+.theme-solarizedLight ::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.theme-light ::-webkit-scrollbar-thumb:hover,
+.theme-solarizedLight ::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Focus styles */
+.btn:focus,
+.form-control:focus,
+.form-select:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* Button hover effects */
+.btn-outline-primary:hover,
+.btn-outline-secondary:hover,
+.btn-outline-success:hover,
+.btn-outline-danger:hover,
+.btn-outline-warning:hover,
+.btn-outline-info:hover {
+  transform: translateY(-1px);
+}
+
+/* Kbd styling for keyboard shortcuts */
+kbd {
+  padding: 0.2rem 0.4rem;
+  font-size: 0.875em;
+  border-radius: 0.25rem;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}

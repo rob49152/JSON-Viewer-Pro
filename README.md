@@ -70,7 +70,7 @@ Most JSON viewers are either:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/json-viewer-pro.git
+git clone https://github.com/rob49152/json-viewer-pro.git
 cd json-viewer-pro
 
 # Install dependencies
@@ -203,4 +203,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Made with React and Express.js
+
 
